@@ -1,0 +1,112 @@
+/* Home Section */
+section {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.home {
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  
+    width: 35%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 10%;
+    align-items: center;
+    margin-left: -10px;
+    margin-top: -10px;
+  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+
+.homeVid {
+    position: absolute;
+    height: 44%;
+    border-radius: 8px;
+    margin-top: -23%;
+    margin-left: 50%;
+}
+
+.home h1 {
+    font-weight: bold;
+    font-size: 55px;
+    color:#08A045;
+    margin-left: -40px;
+    margin-bottom: -40px;
+}
+
+.home p{
+    margin-top: 50px;
+    margin-left: -38px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.home button {
+    margin-top: 20px;
+    margin-left: -38px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 160px;
+    height: 55px;
+    color: white;
+    background-color: #08A045;
+}
+
+/* Navigation Panel */
+nav {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    background-color: rgba(233, 233, 233, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    height: 10%;
+    padding: 10px;
+    left: 5%;
+    top: 7%;
+    border-radius: 15px;
+  }
+  
+
+.nav-menu {
+    list-style: none;
+    position: absolute;
+    left: 65%;
+}
+ul {
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+    color:#08A045;
+}
+
+.nav-title {
+    font-weight: bold;
+    color: #08A045;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
