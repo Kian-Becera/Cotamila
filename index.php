@@ -9,10 +9,13 @@ include_once 'config.php'
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $site_title; ?></title>
     <meta name="description" content="<?php echo $site_description; ?>">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    <link rel="stylesheet" href="assets/css/location.css">
 </head>
 <body>
-    <section id="Home">
+    <section id="home">
         <div class="home">
             <h1> Wake, Caffeinate,</h1>
             <h1>Conquer</h1>
@@ -23,5 +26,8 @@ include_once 'config.php'
         
         <?php include_once 'includes/nav.php'?>
     </section>
+    <br>
+<?php include_once 'includes/menu.php' ?>
+
 </body>
 </html>
