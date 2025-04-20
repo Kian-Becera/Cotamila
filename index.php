@@ -13,6 +13,7 @@ include_once 'config.php'
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
     <link rel="stylesheet" href="assets/css/location.css">
+
 </head>
 <body>
     <section id="home">
@@ -25,9 +26,8 @@ include_once 'config.php'
         <video class="homeVid" src="assets/videos/v2.mp4" controls loop autoplay type="video/webm"></video>
         
         <?php include_once 'includes/nav.php'?>
+        <?php include_once 'includes/menu.php' ?>
+        <?php include_once 'includes/gallery.php' ?>
     </section>
-    <br>
-<?php include_once 'includes/menu.php' ?>
-
 </body>
 </html>

@@ -38,7 +38,7 @@
         </div>
         <div class="lemon">
             <h1 class="holder2">Lemonade</h1>
-            <p>Zesty, Refreshing, Bright</p>
+            <p>Zesty, Refreshing & Bright</p>
         </div>
         <div class="matcha">
             <h1 class="holder3">Matcha</h1>
