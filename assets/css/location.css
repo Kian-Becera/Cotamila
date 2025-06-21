@@ -1,0 +1,53 @@
+.location{
+    background-color: rgba(233, 233, 233, 0.8);
+    border-radius: 15px 15px 0 0;
+    padding: 5% 15% 5% 15%;
+
+}
+
+.location-wrapper{
+    display: flex;
+    padding: 10%;
+    gap: 5%;
+}
+
+
+.location-meta{
+    width: 70%;
+    margin-left: -10%;
+
+    h1 {
+    font-family: "Lora", serif;
+    font-size: 3.5em;
+    color:#08A045;
+    }
+
+    p{
+    font-family: "Lora", serif;
+    font-size: 1.5em;
+    letter-spacing: 0.12em;
+    }
+
+
+    .cta-location{
+    height: 12%;
+    width: 40%;
+    border-radius: 9px;
+    border: 1px solid;
+    font-family: "Lora", serif;
+    font-size: 1.7em;
+    color: white;
+    background-color: #08A045;
+    margin: 3% 0 0 0    ;
+    }
+}
+
+.location-map {
+    width: 45%;
+    border-radius: 32px;
+
+    a{
+
+    img{
+    border-radius: 28px;}}
+}

@@ -15,19 +15,19 @@ include_once 'config.php'
     <link rel="stylesheet" href="assets/css/location.css">
 
 </head>
-<body>
-    <section id="home">
-        <div class="home">
+<body class="cotamila-wrapper">
+    <section clas="home" id="contamilla">
+        <div class="home-wrapper">
             <h1> Wake, Caffeinate,</h1>
             <h1>Conquer</h1>
             <p>Fuel with flavor and own every moment.</p>
             <button>Explore</button>
         </div>
         <video class="homeVid" src="assets/videos/v2.mp4" controls loop autoplay type="video/webm"></video>
-        
+    </section> 
         <?php include_once 'includes/nav.php'?>
         <?php include_once 'includes/menu.php' ?>
         <?php include_once 'includes/gallery.php' ?>
-    </section>
+        <?php include_once 'includes/location.php' ?>
 </body>
 </html>
