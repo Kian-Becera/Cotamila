@@ -1,7 +1,7 @@
 /* Menu Section */
 
 /* Coffee */
-.coffee {
+.coffee-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -16,104 +16,72 @@
     padding: 5% 15% 5% 15%;
 }
 
-#menu #tag {
+#menu #menu-title {
     display: flex;
     justify-content: center;
     font-size: 40px;
     color: #08A045;
 }
 
-.coffee .holder1{
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.coffee .holder2 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-
-.coffee .holder3 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-.coffee .holder4 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 88px;
-    display: none;
-}
-.coffee p {
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    margin-left: 50px;
-    display: none;
-}
-
-.americano,
-.cappuccino,
-.latte,
-.espresso {
+.coffee-content {   
     height: 400px;
     padding: 20px;
+
+    .coffee-content_meta{
+    justify-self: center;
+    align-items: center;
+    display: none;
+    padding: 30% 0 0 0;
+
+    h2{
+    font-family: "Lora", serif;
+    font-size: 2.5em;
+    color:#08A045;
+    justify-self: center;}
+
+    p{
+    justify-self: center;
+    font-family: "Lora", serif;
+    font-size: 1.2em;}
+    }
 }
 
-.americano {
+.coffee-content:nth-child(1) {
     background-image: url('../images/img2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.cappuccino {
+.coffee-content:nth-child(2){
     background-image: url('../images/img4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.espresso {
+.coffee-content:nth-child(3){
     background-image: url('../images/img8.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.latte {
+.coffee-content:nth-child(4) {
     background-image: url('../images/img7.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.coffee > div:hover h1{
+.coffee-wrapper > div:hover .coffee-content_meta{
     display: block;
 }
 
-.coffee > div:hover p{
-    display: block;
-}
-
-.coffee > div:hover {
-    background: rgba(233, 233, 233, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+.coffee-wrapper > div:hover {
+    background: rgba(233, 233, 233, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(233, 233, 233, 0.3);
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
@@ -121,101 +89,72 @@
 
 /* Drinks */
 
-.drinks {
+.drinks-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 10px;
 }
 
-.choco,
-.lemon,
-.matcha,
-.strawberry {
+.drinks-content {
     height: 400px;
     padding: 20px;
+
+        
+    .drinks-content_meta{
+    justify-self: center;
+    align-items: center;
+    display: none;
+    padding: 30% 0 0 0;
+
+    h2{
+    font-family: "Lora", serif;
+    font-size: 2.5em;
+    color:#08A045;
+    justify-self: center;}
+
+    p{
+    justify-self: center;
+    font-family: "Lora", serif;
+    font-size: 1.2em;}
+    }
 }
 
-.choco {
+.drinks-content:nth-child(1) {
     background-image: url('../images/img9.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.lemon {
+.drinks-content:nth-child(2) {
     background-image: url('../images/img6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.matcha {
+.drinks-content:nth-child(3) {
     background-image: url('../images/img5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.strawberry {
+.drinks-content:nth-child(4) {
     background-image: url('../images/img3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.drinks .holder1 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
 
-.drinks  .holder2 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.drinks .holder3 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.drinks .holder4 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-.drinks p {
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    margin-left: 50px;
-    display: none;
-}
-
-.drinks > div:hover h1{
+.drinks-wrapper > div:hover  .drinks-content_meta{
     display: block;
 }
 
-.drinks > div:hover p{
-    display: block;
-}
 
-.drinks > div:hover {
+.drinks-wrapper > div:hover {
     background: rgba(233, 233, 233, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -226,98 +165,66 @@
 
 /* Sandwiches */
 
-.sandwich{
+.sandwich-wrapper{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 10px;
 }
 
-.club, 
-.chicken,
-.ham,
-.cheese {
+.sandwich-content {
     height: 400px;
     padding: 20px;
+
+    .sandwich-content_meta{
+    justify-self: center;
+    align-items: center;
+    display: none;
+    padding: 30% 0 0 0;
+
+    h2{
+    font-family: "Lora", serif;
+    font-size: 2.5em;
+    color:#08A045;
+    justify-self: center;}
+
+    p{
+    justify-self: center;
+    font-family: "Lora", serif;
+    font-size: 1.2em;}
+    }
 }
 
-.club {
+.sandwich-content:nth-child(1) {
     background-image: url('../images/img10.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.chicken{
+.sandwich-content:nth-child(2){
     background-image: url('../images/img11.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.ham {
+.sandwich-content:nth-child(3){
     background-image: url('../images/img12.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.cheese{background-image: url('../images/img13.jpeg');
+.sandwich-content:nth-child(4)
+{background-image: url('../images/img13.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.sandwich .holder1 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.sandwich .holder2 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.sandwich .holder3 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.sandwich .holder4 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.sandwich p {
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    margin-left: 50px;
-    display: none;
-}
-
-.sandwich > div:hover h1{
+.sandwich-wrapper > div:hover .sandwich-content_meta{
     display: block;
 }
 
-.sandwich > div:hover p{
-    display: block;
-}
-
-.sandwich > div:hover {
+.sandwich-wrapper > div:hover {
     background: rgba(233, 233, 233, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -328,99 +235,67 @@
 
 /* Snacks */
 
-.snack {
+.snack-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 10px;
 }
 
-.cheesecake, 
-.mini,
-.cookie,
-.velvet {
+.snack-content {
     height: 400px;
     padding: 20px;
+
+    .snack-content_meta{
+    justify-self: center;
+    align-items: center;
+    display: none;
+    padding: 30% 0 0 0;
+
+    h2{
+    font-family: "Lora", serif;
+    font-size: 2.5em;
+    color:#08A045;
+    justify-self: center;}
+
+    p{
+    justify-self: center;
+    font-family: "Lora", serif;
+    font-size: 1.2em;}
+    }
 }
 
-.cheesecake {
+.snack-content:nth-child(1){
     background-image: url('../images/img14.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.mini {
+.snack-content:nth-child(2) {
     background-image: url('../images/img15.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.cookie {
+.snack-content:nth-child(3) {
     background-image: url('../images/img16.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
-.velvet {
+.snack-content:nth-child(4) {
     background-image: url('../images/img17.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
 }
 
-.snack .holder1 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
 
-.snack .holder2 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.snack .holder3 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.snack .holder4 {
-    justify-content: center;
-    font-size: 40px;
-    color: #08A045;
-    margin-top: 35%;
-    margin-left: 60px;
-    display: none;
-}
-
-.snack p {
-    display: flex;
-    justify-content: center;
-    font-size: 22px;
-    margin-left: 50px;
-    display: none;
-}
-
-.snack > div:hover h1{
+.snack-wrapper > div:hover .snack-content_meta{
     display: block;
 }
 
-.snack > div:hover p{
-    display: block;
-}
-
-.snack > div:hover {
+.snack-wrapper > div:hover {
     background: rgba(233, 233, 233, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);

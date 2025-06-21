@@ -1,22 +1,30 @@
 <section id="menu">
     <!--Coffee-->
-    <h1 id="tag">Coffee</h1>
-    <div class="coffee">
-        <div class="americano">
-            <h1 class="holder1">Americano</h1>
+    <h1 id="menu-title">Coffee</h1>
+    <div class="coffee-wrapper">
+        <div class="coffee-content">
+            <div class="coffee-content_meta">
+            <h2>Americano</h2>
             <p>Smooth, Bold & Mellow</p>
+            </div>
         </div>
-        <div class="cappuccino">
-            <h1 class="holder2">Cappuccino</h1>
+        <div class="coffee-content">
+            <div class="coffee-content_meta">
+            <h2>Cappuccino</h2>
             <p>Creamy, Frothy & Balanced</p>
+            </div>
         </div>
-        <div class="espresso">
-            <h1 class="holder3">Espresso</h1>
+        <div class="coffee-content">
+            <div class="coffee-content_meta">
+            <h2>Espresso</h2>
             <p>Strong, Rich & Intense</p>
+            </div>
         </div>
-        <div class="latte">
-            <h1 class="holder4">Latte</h1>
+        <div class="coffee-content">
+            <div class="coffee-content_meta">
+            <h2>Latte</h2>
             <p>Milky, Light & Velvety</p>
+            </div>
         </div>
     </div>
 
@@ -30,23 +38,31 @@
     </div>
     <br>
     <!--Drinks-->
-    <h1 id="tag">Drinks</h1>
-    <div class="drinks">
-        <div class="choco">
-            <h1 class="holder1">Chocolate</h1>
+    <h1 id="menu-title">Drinks</h1>
+    <div class="drinks-wrapper">
+        <div class="drinks-content">
+            <div class="drinks-content_meta">
+            <h2>Chocolate</h2>
             <p>Rich, Smooth & Indulgent</p>
+            </div>
         </div>
-        <div class="lemon">
-            <h1 class="holder2">Lemonade</h1>
+        <div class="drinks-content">
+            <div class="drinks-content_meta">
+            <h2>Lemonade</h2>
             <p>Zesty, Refreshing & Bright</p>
+            </div>
         </div>
-        <div class="matcha">
-            <h1 class="holder3">Matcha</h1>
+        <div class="drinks-content">
+            <div class="drinks-content_meta">
+            <h2>Matcha</h2>
             <p>Earthly, Calming & Vibrant</p>
+            </div>
         </div>
-        <div class="strawberry">
-            <h1 class="holder4">Strawberry</h1>
+        <div class="drinks-content">
+            <div class="drinks-content_meta">
+            <h2>Strawberry</h2>
             <p>Sweet, Juicy & Fragrant</p>
+            </div>
         </div>
     </div>
     <div class="btnHolder">
@@ -59,23 +75,31 @@
     </div>
     <br>
     <!--Sandwiches-->
-    <h1 id="tag">Sandwiches</h1>
-        <div class="sandwich">
-            <div class="club">
-                <h1 class="holder1">Club Sandwich</h1>
+    <h1 id="menu-title">Sandwiches</h1>
+        <div class="sandwich-wrapper">
+            <div class="sandwich-content">
+                <div class="sandwich-content_meta">
+                <h2>Club Sandwich</h2>
                 <p>Layered, Savory & Classic</p>
+                </div>
             </div>
-            <div class="chicken">
-                <h1 class="holder2">Chicken Pesto</h1>
+            <div class="sandwich-content">
+                <div class="sandwich-content_meta">
+                <h2>Chicken Pesto</h2>
                 <p>Herby, Juicy & Flavorful</p>
+                </div>
             </div>
-            <div class="ham">
-                <h1 class="holder3">Ham & Cheese</h1>
+            <div class="sandwich-content">
+                <div class="sandwich-content_meta">
+                <h2>Ham & Cheese</h2>
                 <p>Simple, Salty & Satisfying</p>
+                </div>
             </div>
-            <div class="cheese">
-                <h1 class="holder4">Mozzarella</h1>
+            <div class="sandwich-content">
+                <div class="sandwich-content_meta">
+                <h2>Mozzarella</h2>
                 <p> Creamy, Fresh & Light</p>
+                </div>
             </div>
         </div>
     <div class="btnHolder">
@@ -88,23 +112,31 @@
     </div>
     <br>
     <!--Snacks-->
-    <h1 id="tag">Snacks</h1>
-    <div class="snack">
-        <div class="cheesecake">
-            <h1 class="holder1">Cheesecake</h1>
+    <h1 id="menu-title">Snacks</h1>
+    <div class="snack-wrapper">
+        <div class="snack-content">
+            <div class="snack-content_meta">
+            <h2>Cheesecake</h2>
             <p>Creamy, Rich & Indulgent</p>
+            </div>
         </div>
-        <div class="mini">
-            <h1 class="holder2">Mini Brownie</h1>
+        <div class="snack-content">
+             <div class="snack-content_meta">
+            <h2>Mini Brownie</h2>
             <p>Bits, Fudgy & Chocolaty</p>
+             </div>
         </div>
-        <div class="cookie">
-            <h1 class="holder3">Cookies</h1>
+        <div class="snack-content">
+            <div class="snack-content_meta">
+            <h2>Cookies</h2>
             <p>Sweet, Soft & Chewy</p>
+            </div>
         </div>
-        <div class="velvet">
-            <h1 class="holder4">Red Velvet</h1>
+        <div class="snack-content">
+            <div class="snack-content_meta">
+            <h2>Red Velvet</h2>
             <p>Velvety, Moist & Decadent</p>
+            </div>
         </div>
     </div>
     <div class="btnHolder">

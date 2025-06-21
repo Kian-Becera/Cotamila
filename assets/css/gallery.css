@@ -13,20 +13,20 @@
     margin-bottom: -3%;
 }
 
-.gallery {
+.gallery-wrapper {
     margin-top: 6%;
     display: flex;
     justify-content: center;
     gap: 15px;
     /* padding: 5%; */
 }
-.gal1 {
+.galllery-content {
     height: 600px;
     width: 39%;
     border-radius: 16px;
 }
 
-.gal2 {
+.gallery-sub_content {
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -34,15 +34,11 @@
     gap: 20px;
 }
 
-.galA {
+.gallery-content_meta {
     height: 290px;
     border-radius: 16px;
 }
 
-.galB {
-    height: 290px;
-    border-radius: 16px;
-}
 
  /* Gallery Preview 1 */
 .card {

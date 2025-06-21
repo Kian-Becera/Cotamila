@@ -2,8 +2,8 @@
 <br>
 <section id="gallery">
     <h1 id="tag">Gallery</h1>
-    <div class="gallery">
-        <div class="gal1">
+    <div class="gallery-wrapper">
+        <div class="galllery-content">
             <div class="card">
                 <div class="card_container"
                     <path
@@ -15,8 +15,8 @@
             </div>
         </div>
 
-        <div class="gal2">
-            <div class="galA">
+        <div class="gallery-sub_content">
+            <div class="gallery-content_meta">
                 <div class="card1">
                     <div class="card_container1">
                         <path
@@ -27,7 +27,7 @@
                     </div>
                 </div>                   
             </div>
-            <div class="galB">
+            <div class="gallery-content_meta">
                 <div class="card2">
                     <div class="card_container2">
                         <path
