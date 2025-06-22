@@ -1,8 +1,8 @@
 .location{
     background-color: rgba(233, 233, 233, 0.8);
-    border-radius: 15px 15px 0 0;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
     padding: 5% 15% 5% 15%;
-
 }
 
 .location-wrapper{
