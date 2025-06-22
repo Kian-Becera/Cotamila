@@ -16,7 +16,7 @@
     padding: 5% 15% 5% 15%;
 }
 
-#menu #menu-title {
+#menu #menu-title { 
     display: flex;
     justify-content: center;
     font-size: 40px;

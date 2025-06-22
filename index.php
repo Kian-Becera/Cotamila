@@ -13,6 +13,7 @@ include_once 'config.php'
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/gallery.css">
     <link rel="stylesheet" href="assets/css/location.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
 <body class="cotamila-wrapper">
@@ -29,5 +30,6 @@ include_once 'config.php'
         <?php include_once 'includes/menu.php' ?>
         <?php include_once 'includes/gallery.php' ?>
         <?php include_once 'includes/location.php' ?>
+        <?php include_once 'includes/footer.php' ?>
 </body>
 </html>
